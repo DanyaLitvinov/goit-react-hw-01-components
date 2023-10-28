@@ -19,7 +19,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       ></Profile>
-      <Statistics title="Upload stats" data={data}></Statistics>
+      <Statistics title="Upload stats" data={data} />
       <FriendList friends={friends}></FriendList>
       <Transactions items={transactions}></Transactions>
     </Container>
