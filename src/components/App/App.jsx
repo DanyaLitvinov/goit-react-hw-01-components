@@ -18,10 +18,10 @@ export const App = () => {
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-      ></Profile>
+    />
       <Statistics title="Upload stats" data={data} />
-      <FriendList friends={friends}></FriendList>
-      <Transactions items={transactions}></Transactions>
+      <FriendList friends={friends}/>
+      <Transactions items={transactions}/>
     </Container>
   );
 };
